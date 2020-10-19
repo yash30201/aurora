@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
-import { signIn} from '../../store/actions/authActions'
-import {Redirect}  from 'react-router-dom'
+import { signIn } from '../../store/actions/authActions'
+import { Redirect }  from 'react-router-dom'
 
 class SignIn extends Component {
   state = {
@@ -13,7 +13,6 @@ class SignIn extends Component {
     this.setState({
       [e.target.id]:e.target.value
     })
-    
   }
 
   handleSubmit = (e) => {

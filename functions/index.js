@@ -41,3 +41,16 @@ exports.signedUp = functions.auth.user()
         return createNotification(notification);
       })
   })
+
+exports.projectUpdated = functions.firestore
+  .document('projects/{projectId}')
+  .onUpdate(doc => {
+    const project = doc.after._fieldsProto;
+    console.log('this is info ', project);
+    const notification = {
+      content : ' got updated',
+      user: `${project.title.stringValue}`,
+      time: admin.firestore.FieldValue.serverTimestamp()
+    }
+    return createNotification(notification);
+  })

@@ -5,6 +5,7 @@ import Dashboard from './components/dashboard/Dashboard';
 import ProjectDetails from './components/projects/projectDetails';
 import SignIn from './components/auth/SignIn';
 import SignUp from './components/auth/SIgnUp';
+import UpdateProject from './components/projects/updateProject'
 import CreateProject from './components/projects/createProject';
 import { useSelector } from 'react-redux';
 import { isLoaded } from 'react-redux-firebase';
@@ -28,6 +29,7 @@ export class App extends React.Component {
               <Route path='/signin' component={SignIn} />
               <Route path='/signup' component={SignUp} />
               <Route path='/create' component={CreateProject} />
+              <Route path='/update/:id' component={UpdateProject} />
             </Switch>
           </div>
         </AuthIsLoaded>

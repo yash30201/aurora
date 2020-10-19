@@ -37,3 +37,11 @@ textarea.materialize-textarea:focus:not([readonly]){
   border-color: #00bfff;
   /* box-shadow: none; */
 }
+
+input:-webkit-autofill + label {
+    display: none;
+}
+
+.blog-logo{
+  margin-left: 4rem;
+}
