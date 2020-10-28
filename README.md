@@ -23,5 +23,5 @@
 - Enforced page restriction for logged off user
 
 ---
-*Head over to [Wiki section](https://github.com/yash30201/aurora/wiki#welcome-to-the-aurora-wiki) for more details*
+*Head over to [Wiki section](https://github.com/yash30201/aurora/wiki) for more details*
 
