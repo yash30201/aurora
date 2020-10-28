@@ -44,4 +44,10 @@ input:-webkit-autofill + label {
 
 .blog-logo{
   margin-left: 4rem;
+  height: 100%;
+}
+
+nav .brand-logo{
+  position: unset;
+  display: unset;
 }
