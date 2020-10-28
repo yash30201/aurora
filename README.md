@@ -22,3 +22,6 @@
 - Update existing article : *Articles written by thou self only have this option*
 - Enforced page restriction for logged off user
 
+---
+*Head over to [Wiki section](https://github.com/yash30201/aurora/wiki#welcome-to-the-aurora-wiki) for more details*
+
